@@ -69,3 +69,70 @@
 .footer-socials-icon {
   color: #f4f4fd;
 }
+
+.footer-subscribe {
+  margin-left: auto;
+}
+
+.footer-subscribe-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  background-color: transparent;
+  outline: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+}
+
+.footer-form-input:focus {
+  border-color: #31d0aa;
+}
+
+.footer-form-input::placeholder {
+  color: #fff;
+}
+
+.btn-footer {
+  display: flex;
+  align-items: center;
+
+  max-width: 165px;
+  width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  gap: 16px;
+  border-radius: 4px;
+}
+
+.btn-footer:hover,
+.btn-footer:focus {
+  background-color: #31d0aa;
+}
+
+.footer-subscribe-icon {
+}
