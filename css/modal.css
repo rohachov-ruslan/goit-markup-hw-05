@@ -73,6 +73,13 @@
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 24px;
   background-color: #e7e9fc;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color;
+}
+
+.modal-btn-icon {
+  color: #2e2f42;
 }
 
 .modal-btn:hover,
@@ -81,16 +88,22 @@
   border-color: #404bbf;
 }
 
-.modal-btn-icon {
-  color: #2e2f42;
+.modal-btn:hover .modal-btn-icon,
+.modal-btn:focus .modal-btn-icon {
+  color: white;
 }
 
-.modal-btn:hover,
+/* .modal-btn:hover .modal-btn-icon {
+  background-color: #404bbf;
+  border-color: #404bbf;
+} */
+
+/* .modal-btn:hover,
 .modal-btn:focus + .modal-btn-icon {
   background-color: #404bbf;
   border-color: #404bbf;
   color: white;
-}
+} */
 
 .modal-caption {
   font-weight: 500;
